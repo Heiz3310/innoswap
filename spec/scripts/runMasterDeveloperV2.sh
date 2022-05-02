@@ -1,0 +1,1 @@
+certoraRun spec/harnesses/MasterDeveloperV2Harness.sol spec/harnesses/DummyERC20A.sol spec/harnesses/DummyERC20B.sol spec/harnesses/DummyINNAI.sol --link MasterDeveloperV2Harness:INNAI=DummyINNAI --settings -assumeUnwindCond,-enableStorageAnalysis=true,-ciMode=true --verify MasterDeveloperV2Harness:spec/MasterDeveloperV2.spec --cache MasterDeveloperV2 --msg "MasterDeveloperV2"
